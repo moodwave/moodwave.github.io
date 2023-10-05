@@ -1,10 +1,11 @@
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+    height: 100vh;
   }
   
-  @keyframes gradient-animation {
+  @keyframes gradient {
     0% {
       background-position: 0% 50%;
     }
@@ -14,5 +15,18 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+
+
+  .mainl{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center
+  }
+
+  .about{
+    display: flex;
+    height: 100vh;
   }
   
