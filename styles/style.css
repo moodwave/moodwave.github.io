@@ -28,5 +28,12 @@
   .about{
     display: flex;
     height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .features{
+    display: flex;
+    height: 100vh;
+    background-color:#D2E0FB;
   }
   
